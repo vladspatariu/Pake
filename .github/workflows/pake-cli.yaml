@@ -48,6 +48,21 @@ on:
         required: false
         type: boolean
         default: false
+      show_system_tray:
+        description: "Show system tray icon (Linux)"
+        required: false
+        type: boolean
+        default: false
+      start_to_tray:
+        description: "Start minimized to system tray (Linux)"
+        required: false
+        type: boolean
+        default: false
+      hide_on_close:
+        description: "Hide window instead of closing (Linux)"
+        required: false
+        type: boolean
+        default: false
       hide_title_bar:
         description: "Hide title bar (macOS only)"
         required: false
